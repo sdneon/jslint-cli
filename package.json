@@ -1,0 +1,13 @@
+{
+  "name"          : "jslint-cli",
+  "description"   : "JSLint static code analysis batch processing wrapper for Node.JS",
+  "url"           : "",
+  "keywords"      : ["static code analysis", "white box testing"],
+  "author"        : "Neon",
+  "contributors"  : [],
+  "dependencies"  : {
+      "nopt": ">=1"
+  },
+  "main"          : "jslint-cli",
+  "version"       : "1.1.5"
+}
