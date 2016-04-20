@@ -1,7 +1,7 @@
 jslint-cli
 ==========
 
-jslint-cli is a [Node.JS](http://nodejs.org/) commandline interface wrapper for [JSLint](https://github.com/douglascrockford/JSLint).
+jslint-cli is a [Node.JS](http://nodejs.org/) commandline interface wrapper for **[JSLint](https://github.com/douglascrockford/JSLint) Pre-2015**.
 It provides these capabilities:
   - batch JSLint checking
   - HTML report & CSV static code analysis statistics generation
@@ -39,7 +39,7 @@ Options available:
     --jslintcolor			Enable or disable use of colours in Watch results printout.
     						(Default: auto-detect support of colours and enable if supported).
     						For disabling colours in non-colour enabled consoles like Textpad's.
-    --jslinthidepath			Whether to hide or print file path in watch printout.
+    --jslinthidepath		Whether to hide or print file path in watch printout.
     						(Default: hide file path in each error printout/true);
     						For jumping to error in source code file in Textpad
     						(use regex match: "\(.+\) (line \([0-9]+\) character \([0-9]+\)) ", File: 1, Line: 2, Column: 3).
@@ -110,4 +110,7 @@ Sample JSLint options JSON file:
 
 ## Updating JSLint
 
-JSLint can be updated with the latest version by simply replacing with the latest jslint.js file from (its repository)[http://github.com/douglascrockford/JSLint/].
+~~JSLint can be updated with the latest version by simply replacing with the latest jslint.js file from (its repository)[http://github.com/douglascrockford/JSLint/].~~
+
+Don't update jslint.js anymore as the last available pre-2015 version is 2014-07-08.
+For the new **JSLint 2015+** (that supports ES6), use [jslint-cli2](https://github.com/sdneon/jslint-cli2) instead.
